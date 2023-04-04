@@ -1,0 +1,126 @@
+# third tutorial 
+
+a = 6
+
+b = 7 
+
+c = 8
+
+if  a>b:
+    print("ok")
+
+if b>a:
+    print("could have been okay")
+    
+if c>a:
+    print("super okay")
+
+else:
+    print("not okay")
+    
+
+
+# nested ifelse 
+
+if b > a: 
+    if a > a:
+        print(2 + 4) 
+
+#two number - between which is bigger 
+
+num_1 = int(input())
+num_2 = int(input())
+
+if num_1 > num_2:
+    print(num_1)
+
+else:
+    print(num_2)
+
+# between three which is bigger you have to print it - Task - 101 
+# Grading system 
+# input a students mark, then output will be shown as a grade.
+# sample input: 80
+#sample output: A+
+#sample input: 70
+#sample output: A- 
+
+i = 0 
+
+while i < 5 :
+    
+    print("Rownak is a good boy")
+    
+    i = i + 1
+
+
+for i in range(4):
+    
+    print("sorry")
+
+# grading system for 10 students 
+
+#nested loop 
+
+for i in range(4):
+    for j in range(2):
+        print(i*j)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
