@@ -1,0 +1,41 @@
+# third tutorial 
+
+a = 6
+
+b = 7 
+
+c = 8
+
+if  a>b:
+    print("ok")
+
+if b>a:
+    print("could have been okay")
+    
+if c>a:
+    print("super okay")
+
+else:
+    print("not okay")
+    
+
+
+# nested ifelse 
+
+if b > a: 
+    if a > a:
+        print(2 + 4) 
+
+#two number - between which is bigger 
+
+num_1 = int(input())
+num_2 = int(input())
+
+if num_1 > num_2:
+    print(num_1)
+
+else:
+    print(num_2)
+
+# between three which is bigger you have to print it - Task - 101 
+# Grading system 
